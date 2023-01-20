@@ -1,9 +1,9 @@
 const ethers = require('ethers');
 const getBalance = require('./balance');
 const abi = require('./abi.json');
-const sendEthTo = require('./sendEth');
+const sendEthTo = require('./utils/sendEth');
 const provider = require('./provider');
-const signer = require('./signer');
+const signer = require('./utils/signer');
 
 
 provider.getBlockNumber().then((result) => {
