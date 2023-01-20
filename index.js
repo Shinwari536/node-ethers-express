@@ -2,9 +2,10 @@ const express = require('express');
 
 const app = express();
 
+// APP Utiles
+require('./setup/appUtils')(app);
 // Routes
 require('./setup/routes')(app);
-require('./setup/appUtils')(app);
 
 // start app
 const port = process.env.PORT || 3000

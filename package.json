@@ -10,15 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "ethers": "^5.7.2",
     "config": "^3.3.8",
     "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
     "express": "^4.18.2",
     "express-async-errors": "^3.1.1",
     "helmet": "^6.0.1",
     "joi": "^17.7.0",
     "joi-objectid": "^4.0.2",
-    "jshint": "^2.13.6"
+    "jshint": "^2.13.6",
+    "morgan": "^1.10.0"
   }
 }
